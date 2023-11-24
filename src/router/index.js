@@ -18,11 +18,6 @@ const routes = [
 		component: () => import('../views/PostsView.vue')
 	},
 	{
-		path: '/notes',
-		name: 'notes',
-		component: () => import('../views/NotesView.vue')
-	},
-	{
 		path: '/noteTwo',
 		name: 'notetwo',
 		component: () => import('../views/NoteTwoView.vue')

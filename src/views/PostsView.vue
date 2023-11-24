@@ -45,7 +45,7 @@ import MainButton from '@/components/UI/MainButton.vue'
 import CreatePost from '@/components/CreatePost.vue'
 import MainInput from '@/components/UI/MainInput.vue'
 import PostItem from '@/components/PostItem.vue'
-2
+import axios from 'axios'
 
 export default {
 	components: {
